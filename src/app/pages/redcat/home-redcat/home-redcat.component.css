@@ -1,0 +1,43 @@
+.toolbar {
+    color: #C81010;
+}
+
+.banner {
+    background-image: url("https://i.gifer.com/33HO.gif");
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.titulos {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name {
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 100px;
+    color: #CA1919;
+}
+
+.img {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.news {
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+}
+
+.news-div {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+

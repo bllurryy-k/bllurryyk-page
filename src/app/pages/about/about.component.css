@@ -1,0 +1,47 @@
+.text-center {
+    text-align: center;
+}
+
+.div {  
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.avatar {
+    width: 10%;
+    height: 10%;
+    margin-left: 4px;
+    margin-top: 40px;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-center {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.text-1 {
+    margin-left: 10px;
+}
+
+.div-2 {
+    margin-top: 20px;
+    width: 40%;
+    float: left;
+}
+
+.div-3 {
+    margin-top: 20px;
+    width: 55%;
+    float: left;
+    margin-left: 10px;
+}
