@@ -40,3 +40,14 @@
     float: left;
 }
 
+.button {
+    background-color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 90%;
+    font-size: 36px;
+}
