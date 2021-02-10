@@ -1,18 +1,14 @@
-.text-center {
-    text-align: center;
+.toolbar {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.div {  
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.avatar {
-    width: 10%;
-    height: 10%;
-    margin-left: 4px;
-    margin-top: 40px;
+.toolbar button:hover {
+    background-color: #7A00FE;
+    transition: 1000ms;
 }
 
 .center {
@@ -22,26 +18,44 @@
     align-items: center;
 }
 
-.not-center {
-    display: flex;
-    flex-direction: row;
-
-    align-items: center;
+.avatar {
+    width: 10%;
+    float: left;
+    position: relative;
+    margin: 20px 10px;
 }
 
-.text-1 {
-    margin-left: 10px;
+.card-info1 {
+    float: left;
+    width: 20%;
+    margin: 20px 10px;
+    background-color: #0D1117;
 }
 
-.div-2 {
-    margin-top: 20px;
+.card-info2 {
+    float: left;
     width: 40%;
-    float: left;
+    margin: 20px 10px;
+    background-color: #0D1117;
 }
 
-.div-3 {
-    margin-top: 20px;
-    width: 55%;
-    float: left;
-    margin-left: 10px;
+.logo {
+    min-width: 400px; 
+    max-width: 400px;
+    width: 400px;
+    align-items: left; 
+    alt: "título com o nick do Kledyson Goes";
+}
+
+.certificado {
+    cursor: pointer;
+}
+
+.certificado:hover {
+    background-color: #7A00FE;
+}
+
+.cert-img {
+    width: 100%;
+    margin-bottom: 14px;
 }

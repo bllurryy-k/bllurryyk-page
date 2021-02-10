@@ -9,6 +9,7 @@
     margin-bottom: 20px;
     text-align: center;
     float: left;
+    cursor: pointer;
 }
 
 .img-icon {
@@ -23,3 +24,83 @@
     float: left;
 }
 
+/* new */
+
+.toolbar {
+    background-color: #C2185B;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+    margin-right: 85px;
+    width: 10%;
+    cursor: pointer;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    margin-left: 35px;
+    
+    position: relative;
+}
+
+.menu a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    margin-top: 30px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 100ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.menu button {
+    color: white;
+    background-color: #C2185B;
+    border: none;
+    float: left;
+    margin-right: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* sobre posições */
+.toolbar button:hover {
+    background-color: #7A00FE;
+    transition: 1000ms;
+}
+
+.card-menu:hover {
+    background-color: #7A00FE;
+    transition: 1000ms;
+}

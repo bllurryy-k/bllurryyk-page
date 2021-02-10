@@ -51,3 +51,8 @@
     width: 90%;
     font-size: 36px;
 }
+
+.button:hover {
+    background-color: #7A00FE;
+    color: white;
+}

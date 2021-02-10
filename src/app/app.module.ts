@@ -15,6 +15,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatProgressBarModule } from '@angular/material/progress-bar'
+import {MatTabsModule} from '@angular/material/tabs';
 
 //Custom-icons
 import { HttpClientModule } from '@angular/common/http';
@@ -50,7 +51,8 @@ import { ProjetosEnglishComponent } from './pages/english-site/projetos-english/
     MatIconModule,
     HttpClientModule,
     MatDialogModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatTabsModule
   ],
   providers: [
     CustomIconService

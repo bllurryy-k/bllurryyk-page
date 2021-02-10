@@ -1,40 +1,40 @@
-<!-- menu -->
-<mat-toolbar color="primary" class="menu">
-    <button mat-button a routerLink="../home"><h1>bllurryy.k</h1></button>
+<mat-toolbar color="primary" class="toolbar">
+    <button mat-button a routerLink="../home"><h1>BLLURRYYK</h1></button>
     <button mat-button a routerLink="../home">HOME</button>
     <button mat-button a routerLink="../projetos">PROJETOS</button>
     <button mat-button a routerLink="../about">SOBRE MIM</button>
     <button mat-button a routerLink="../home-redcat">RED CAT GAMES</button>
     <button mat-button a routerLink="../donate">DONATE</button>
     <button mat-button><mat-icon svgIcon="candy"></mat-icon></button>
-</mat-toolbar>
+</mat-toolbar>    
 
-<!-- page -->
-<div class="div">
-    <mat-card>
-        <div class='top-picture'>
-            <img mat-card-image src="https://avatars2.githubusercontent.com/u/20758261?s=460&u=f37190e17771600ff29a3dfd44632ecd18c4f132&v=4" class="avatar">
-        </div>
+<div class="center">
+    <img src="../../../assets/pictures/pictures/avatar-1.jpg" class="avatar">
+
+    <mat-card class="card-info2">
+        <mat-tab-group>
+            <mat-tab label="infos">
+                <img src="../../../assets/pictures/logo/logo.png" class="logo">
+                <h1>Hello There!</h1>
+                <p>Meu nome é Kledyson, tenho 20 anos, estou cursando ciência da computação e atualmente trabalho como analista de implantação. Também estou iniciando a atuação como desenvolvedor de Front-End.</p>
+                <h2>🌸 Skills: Python, HTML, CSS, JavaScript</h2>
+                <h2>🌱 Atualmente Estudando: C#, Angular, TypeScript</h2>
+            </mat-tab>
+
+            <mat-tab label="Certificados">
+                <mat-card class="certificado">
+                    <img src="../../../assets/pictures/certificados/html  - css/HTML5 e CSS3 parte 1 - A primeira página da Web - Alura.png" class="cert-img">
+                    <mat-card-title>HTML5 e CSS3 parte 1 - A primeira página da Web - Alura</mat-card-title>
+                </mat-card>
+            </mat-tab>
+
+            <!-- <mat-tab label="Social">
+                <h1>social</h1>
+            </mat-tab>
+
+            <mat-tab label="Contato">
+                <h1>contato</h1>
+            </mat-tab> -->
+        </mat-tab-group>
     </mat-card>
-    <div class="div-2">
-        <mat-card>
-            <mat-card-title>
-                Skills
-            </mat-card-title>
-            <mat-card-content>
-                <mat-card-title>Python</mat-card-title>
-                <mat-progress-bar mode='determinate' value='50' color='accent'></mat-progress-bar>
-            </mat-card-content>
-        </mat-card>
-    </div>
-    <div class="div-3">
-        <mat-card>
-            <mat-card-title>
-                Outros
-            </mat-card-title>
-            <mat-card-content>
-
-            </mat-card-content>
-        </mat-card>
-    </div>
 </div>
