@@ -8,25 +8,39 @@
     <button mat-button><mat-icon svgIcon="candy"></mat-icon></button>
 </mat-toolbar>    
 
-<div class="center">
-    <img src="../../../assets/pictures/pictures/avatar-1.jpg" class="avatar">
+<div class="center2">
+    <mat-card class="card-info1">
+        <img src="../../../assets/pictures/pictures/avatar-1.jpg" class="avatar">
+        <mat-card-content class="content">
+            <h1>Kledyson Goes</h1>
+            <h3><mat-icon>location_on</mat-icon> Aracaju, Sergipe</h3>
+        </mat-card-content>
+    </mat-card>
 
-    <mat-card class="card-info2">
-        <mat-tab-group>
-            <mat-tab label="infos">
+    
+    <mat-tab-group>
+        <mat-tab label="infos">
+            <mat-card class="card-info2">
                 <img src="../../../assets/pictures/logo/logo.png" class="logo">
                 <h1>Hello There!</h1>
                 <p>Meu nome é Kledyson, tenho 20 anos, estou cursando ciência da computação e atualmente trabalho como analista de implantação. Também estou iniciando a atuação como desenvolvedor de Front-End.</p>
                 <h2>🌸 Skills: Python, HTML, CSS, JavaScript</h2>
                 <h2>🌱 Atualmente Estudando: C#, Angular, TypeScript</h2>
-            </mat-tab>
+            </mat-card>
+        </mat-tab>
 
-            <mat-tab label="Certificados">
-                <mat-card class="certificado">
+        <mat-tab label="Certificados">
+            <mat-card class="toolbar-title">
+                <h1><mat-icon>view_day</mat-icon>Do mais recente ao mais antigo</h1>
+            </mat-card>
+
+            <mat-card class="certificado">
+                <a href="https://cursos.alura.com.br/certificate/94648b5f-4b6b-407e-9085-91eb3ec5a868" target="_blank">
                     <img src="../../../assets/pictures/certificados/html  - css/HTML5 e CSS3 parte 1 - A primeira página da Web - Alura.png" class="cert-img">
-                    <mat-card-title>HTML5 e CSS3 parte 1 - A primeira página da Web - Alura</mat-card-title>
-                </mat-card>
-            </mat-tab>
+                </a>   
+                <mat-card-title>HTML5 e CSS3 parte 1 - A primeira página da Web - Alura</mat-card-title>
+            </mat-card>
+        </mat-tab>
 
             <!-- <mat-tab label="Social">
                 <h1>social</h1>
@@ -35,6 +49,5 @@
             <mat-tab label="Contato">
                 <h1>contato</h1>
             </mat-tab> -->
-        </mat-tab-group>
-    </mat-card>
+    </mat-tab-group>
 </div>

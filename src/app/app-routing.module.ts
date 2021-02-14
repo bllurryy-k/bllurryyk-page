@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { Routes, RouterModule, PreloadAllModules, Router } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { Error404Component } from './pages/error404/error404.component';
 import { ProjetosComponent } from './pages/projetos/projetos.component';
@@ -12,6 +12,11 @@ import { GamesComponent } from './pages/redcat/games/games.component';
 
 //english-version
 import { HomeEnglishComponent } from './pages/english-site/home-english/home-english.component';
+import { PrefixNot } from '@angular/compiler';
+import { ApplicationStateServiceService } from './services/application-state-service.service';
+
+//mobile-ver
+import { MobileHomeComponent } from './pages/home/mobile-home/mobile-home.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -26,8 +31,21 @@ const routes: Routes = [
 
 ];
 
+const mobile_routes: Routes = [
+  { path: '', component: MobileHomeComponent}
+]
+
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    preloadingStrategy: PreloadAllModules
+  })],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+  public constructor(private router: Router,
+    private applicationStateService: ApplicationStateServiceService){
+      if (applicationStateService.getIsmobileResolution()){
+        router.resetConfig(mobile_routes);
+      }
+    }
+ }

@@ -1,0 +1,23 @@
+.banner {
+    background-image: url("https://b.catgirlsare.sexy/qmZ_DXES.png");
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #8F00FF;
+}
+
+.button {
+    background-color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 36px;
+    margin-bottom: 4px;
+}

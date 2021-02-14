@@ -27,6 +27,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { SoonComponent } from './pages/soon/soon.component';
 import { HomeEnglishComponent } from './pages/english-site/home-english/home-english.component';
 import { ProjetosEnglishComponent } from './pages/english-site/projetos-english/projetos-english.component';
+import { MobileHomeComponent } from './pages/home/mobile-home/mobile-home.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ProjetosEnglishComponent } from './pages/english-site/projetos-english/
     AboutComponent,
     SoonComponent,
     HomeEnglishComponent,
-    ProjetosEnglishComponent
+    ProjetosEnglishComponent,
+    MobileHomeComponent
   ],
   imports: [
     BrowserModule,
