@@ -21,7 +21,7 @@ import { MobileHomeComponent } from './pages/home/mobile-home/mobile-home.compon
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'projetos', component: ProjetosComponent },
-  { path: 'home-redcat', component: HomeRedcatComponent },
+  // { path: 'home-redcat', component: HomeRedcatComponent },
   { path: 'games', component: GamesComponent },
   { path: 'about', component: AboutComponent },
   { path: 'soon', component: SoonComponent },
