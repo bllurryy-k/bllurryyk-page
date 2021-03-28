@@ -30,7 +30,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
 .idioma-menu {
@@ -64,13 +63,16 @@
 }
 
 .card {
-    width: 100%;
+    width: 40%;
     margin-bottom: 20px;
     color: #C2185B;
     background-color: white;
     text-align: center;
     cursor: pointer;
+    float: left;
+    margin-right: 2%;
 }
+
 
 .card:hover {
     background-color: #7A00FE;
